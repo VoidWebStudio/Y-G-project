@@ -1,4 +1,4 @@
-{ 
+{
   "name": "gulpjs",
   "version": "1.0.0",
   "description": "starter project from new projects",
@@ -15,6 +15,3 @@
     "gulp-sass": "^4.0.2"
   }
 }
-
-
-
