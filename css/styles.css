@@ -69,10 +69,7 @@ main {
   .persons .person-imgs {
     position: absolute;
     display: flex;
-    top: -190px;
-    animation-name: refresh;
-    animation-duration: 6s;
-    animation-timing-function: linear; }
+    top: -190px; }
     .persons .person-imgs .person-img2 {
       position: absolute;
       left: 450px;
@@ -85,19 +82,3 @@ main {
   padding-right: 50px;
   padding-left: 150px;
   padding-bottom: 0; }
-
-@keyframes refresh {
-  0% {
-    opacity: 0; }
-  25% {
-    opacity: 0.1; }
-  50% {
-    opacity: 0.2; }
-  60% {
-    opacity: 0.4; }
-  75% {
-    opacity: 0.6; }
-  90% {
-    opacity: 0.8; }
-  100% {
-    opacity: 1; } }

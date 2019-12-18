@@ -6,17 +6,16 @@
 	<title>WebGL Distortion Slider</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href="https://fonts.googleapis.com/css?family=Poppins:400,400i,500,600,700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 	<link rel="stylesheet" href="css/styles.css">
-	<link rel="stylesheet" href="css/animate.css">
 </head>
 
 <body>
 
-
 	<main>
 		<div class="all-blocks">
 			<div class="blocks">
-				<div class="block-y  span3 wow bounceInLeft slow">
+				<div class="block-y" data-aos="fade-right"   data-aos-duration="2000">
 					<div class="block-img"> <img src="img/Y.png" alt=""></div>
 					<div class="block-text">
 						<span>Основатель Y&G Team</span>
@@ -28,7 +27,7 @@
 				<div class="spacing-word">
 					<span class="element"></span>
 				</div>
-				<div class="block-g  span3 wow bounceInLeft slow">
+				<div class="block-g" data-aos="fade-right" data-aos-duration="2000">
 					<div class="block-img"> <img src="img/G.png" alt=""></div>
 					<div class="block-text">
 						<span >Основатель Y&G Team</span>
@@ -46,13 +45,23 @@
 					<span class="typed2"></span>
 
 				</div>
-				<div class="person-imgs">
+				<div class="person-imgs"
+				 data-aos="fade-zoom-in"
+				data-aos-easing="ease-in-back"
+				data-aos-delay="300"
+				data-aos-duration="3000"
+				data-aos-offset="0">
 					<img class="person-img1" src="./img/person1.png" alt="" srcset="">
 					<img class="person-img2" src="./img/person2.png" alt="" srcset="">
 				</div>
 			</div>
 		</div>
 	</main>
+
+
+	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
 	<script src="js/script.js"></script>
